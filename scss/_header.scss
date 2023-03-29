@@ -1,0 +1,141 @@
+.top-black-menu {
+    background: $darkColor;
+    padding: 0px;
+    ul {
+        padding: 0px;
+        list-style-type: none;
+        float: left;
+        margin: 0px;
+        display: block;
+        li {
+            float: left;
+            padding: 10px;
+            a {
+                text-decoration: none;
+                color: #fff;
+                font-weight: 400;
+                &:hover{
+                    color: $background;
+                }
+            }
+        }
+    }
+    .service {
+        color: #fff;
+        font-size: 15px;
+        padding: 20px;
+        i{
+            color: $mainColor;
+        }
+    }
+}
+.top-header {
+    background: #fff;
+    padding: 0px;
+    img{
+        width: 180px;
+        float: left;
+        padding: 10px;
+    }
+    .email-us {
+        float: left;
+        padding: 10px;
+        p {
+            color: $darkColor;
+            font-weight: bold;
+        }
+        .ask-an {
+            color: $darkFontColor;
+            text-decoration: underline;
+            font-weight: lighter;
+        }
+    }
+    .top-shopping-cart {
+        float: right;
+        padding: 20px;
+        font-size: 35px;
+        cursor: pointer;
+        span {
+            padding: 5px;
+            font-size: 13px;
+            position: absolute;
+            background: #619474;
+            color: #fff;
+            border-radius: 100px;
+            left: 0px;
+            bottom: 0px;
+            min-width: 55px;
+            text-align: center;
+        }
+    }
+}
+
+.dropdown-toggle {
+    background-color: #619474;
+    font-weight: bold;
+    border: 0px;
+    padding: 13px !important;
+    font-size: 14px;
+    i{
+        font-size: 20px;
+        float: right;
+        padding-left: 30px;
+    }
+    &:after{
+        display: none;
+    }
+    &:hover{
+        background-color: #486c55;
+    }
+    &:active{
+        background-color: #486c55;
+    }
+}
+nav.navbar {
+    padding: 3px;
+    background-color: #fff0 !important;
+    width: 65%;
+    li{
+        a{
+            color: $darkColor !important;
+        }
+    }
+    .active{
+        a{
+            font-weight: bold;
+            color: #619474 !important;
+        }
+    }
+    input.form-control.mr-sm-2 {
+        padding: 10px;
+        padding-left: 20px;
+        min-width: 240px;
+        max-width: 80%;
+        border: 2px solid #e4e4e4;
+    }
+    form {
+        button{
+        line-height: 0;
+        width: 55px;
+        height: 100%;
+        position: absolute;
+        right: 10px;
+        top: 0;
+        z-index: 3;
+        background: 0 0;
+        border: none;
+        padding: 0;
+        font-weight: bold;
+        font-size: 22px;
+        color: #222;
+            &:hover{
+                background-color: #fff0;
+                color: #222;
+            }
+        }
+    }
+    .navbar-toggler{
+        padding: 7px;
+        float: right;
+    }
+}
